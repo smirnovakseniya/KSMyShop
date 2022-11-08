@@ -8,6 +8,8 @@
 import Foundation
 
 class Model: ObservableObject {
+    var widgetCard: Card = Card(card: "", image: ["Widget_Image"], name: "Name Toy", raiting: 5, color: Colors.lightGreen.rawValue, description: "", buy: true)
+    
     @Published var dinoCards: [Card] = [
         Card(card: NameCards.dino.rawValue, image: ["Dino_1", "Dino_2", "Dino_3"], name: "Light Olive Dino", raiting: 5, color: Colors.lightGreen.rawValue,
              description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", buy: false),

@@ -21,10 +21,26 @@
 		F20D43B62913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43B52913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift */; };
 		F20D43C32913CB0500124A00 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C22913CB0500124A00 /* HomeScreenView.swift */; };
 		F20D43C52913CB2700124A00 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C42913CB2700124A00 /* Model.swift */; };
-		F20D43C72913DAA000124A00 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C62913DAA000124A00 /* Image.swift */; };
 		F20D43C92913F26000124A00 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C82913F26000124A00 /* View.swift */; };
 		F2B0B059291A2F190073F89A /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B058291A2F190073F89A /* CommonViews.swift */; };
 		F2B0B05B291A31570073F89A /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B05A291A31570073F89A /* Text.swift */; };
+		F2B0B063291A48C70073F89A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0B062291A48C70073F89A /* WidgetKit.framework */; };
+		F2B0B065291A48C70073F89A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0B064291A48C70073F89A /* SwiftUI.framework */; };
+		F2B0B068291A48C70073F89A /* KSMyShopWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B067291A48C70073F89A /* KSMyShopWidget.swift */; };
+		F2B0B06B291A48C80073F89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B0B06A291A48C80073F89A /* Assets.xcassets */; };
+		F2B0B06D291A48C80073F89A /* KSMyShopWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B069291A48C70073F89A /* KSMyShopWidget.intentdefinition */; };
+		F2B0B06E291A48C80073F89A /* KSMyShopWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B069291A48C70073F89A /* KSMyShopWidget.intentdefinition */; };
+		F2B0B071291A48C80073F89A /* KSMyShopWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F2B0B060291A48C70073F89A /* KSMyShopWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F2B0B07E291A4BD40073F89A /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2014651291935F200D51138 /* Stars.swift */; };
+		F2B0B07F291A4BD40073F89A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146592919365A00D51138 /* User.swift */; };
+		F2B0B080291A4BD40073F89A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146572919363B00D51138 /* Card.swift */; };
+		F2B0B081291A4BD40073F89A /* NameCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146552919362000D51138 /* NameCards.swift */; };
+		F2B0B082291A4BD40073F89A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146532919360A00D51138 /* Colors.swift */; };
+		F2B0B083291A4BD40073F89A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C42913CB2700124A00 /* Model.swift */; };
+		F2B0B084291A4BEA0073F89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20D439C2913CADC00124A00 /* Assets.xcassets */; };
+		F2B0B086291A74690073F89A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B085291A74690073F89A /* Image.swift */; };
+		F2B0B087291A74A20073F89A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B085291A74690073F89A /* Image.swift */; };
+		F2B0B088291A76630073F89A /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B058291A2F190073F89A /* CommonViews.swift */; };
 		F2C1CB582914FD98002CFBD5 /* CardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1CB572914FD98002CFBD5 /* CardScreenView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +59,28 @@
 			remoteGlobalIDString = F20D43942913CADA00124A00;
 			remoteInfo = KSMyShop;
 		};
+		F2B0B06F291A48C80073F89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20D438D2913CADA00124A00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B0B05F291A48C70073F89A;
+			remoteInfo = KSMyShopWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2B0B072291A48C80073F89A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F2B0B071291A48C80073F89A /* KSMyShopWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F20146472918EC4000D51138 /* KSMyShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KSMyShop.entitlements; sourceTree = "<group>"; };
@@ -64,10 +101,17 @@
 		F20D43B52913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMyShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F20D43C22913CB0500124A00 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		F20D43C42913CB2700124A00 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		F20D43C62913DAA000124A00 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		F20D43C82913F26000124A00 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		F2B0B058291A2F190073F89A /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
 		F2B0B05A291A31570073F89A /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		F2B0B060291A48C70073F89A /* KSMyShopWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KSMyShopWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B0B062291A48C70073F89A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F2B0B064291A48C70073F89A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F2B0B067291A48C70073F89A /* KSMyShopWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMyShopWidget.swift; sourceTree = "<group>"; };
+		F2B0B069291A48C70073F89A /* KSMyShopWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = KSMyShopWidget.intentdefinition; sourceTree = "<group>"; };
+		F2B0B06A291A48C80073F89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B0B06C291A48C80073F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B0B085291A74690073F89A /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Image.swift; path = ../../KSMyShopWidget/Image.swift; sourceTree = "<group>"; };
 		F2C1CB572914FD98002CFBD5 /* CardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +134,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B0B05D291A48C70073F89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B0B065291A48C70073F89A /* SwiftUI.framework in Frameworks */,
+				F2B0B063291A48C70073F89A /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +186,8 @@
 				F20D43972913CADA00124A00 /* KSMyShop */,
 				F20D43A82913CADD00124A00 /* KSMyShopTests */,
 				F20D43B22913CADD00124A00 /* KSMyShopUITests */,
+				F2B0B066291A48C70073F89A /* KSMyShopWidget */,
+				F2B0B061291A48C70073F89A /* Frameworks */,
 				F20D43962913CADA00124A00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,6 +198,7 @@
 				F20D43952913CADA00124A00 /* KSMyShop.app */,
 				F20D43A52913CADC00124A00 /* KSMyShopTests.xctest */,
 				F20D43AF2913CADD00124A00 /* KSMyShopUITests.xctest */,
+				F2B0B060291A48C70073F89A /* KSMyShopWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,9 +248,29 @@
 			children = (
 				F20D43C82913F26000124A00 /* View.swift */,
 				F2B0B05A291A31570073F89A /* Text.swift */,
-				F20D43C62913DAA000124A00 /* Image.swift */,
+				F2B0B085291A74690073F89A /* Image.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F2B0B061291A48C70073F89A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0B062291A48C70073F89A /* WidgetKit.framework */,
+				F2B0B064291A48C70073F89A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B0B066291A48C70073F89A /* KSMyShopWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0B067291A48C70073F89A /* KSMyShopWidget.swift */,
+				F2B0B069291A48C70073F89A /* KSMyShopWidget.intentdefinition */,
+				F2B0B06A291A48C80073F89A /* Assets.xcassets */,
+				F2B0B06C291A48C80073F89A /* Info.plist */,
+			);
+			path = KSMyShopWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,10 +283,12 @@
 				F20D43912913CADA00124A00 /* Sources */,
 				F20D43922913CADA00124A00 /* Frameworks */,
 				F20D43932913CADA00124A00 /* Resources */,
+				F2B0B072291A48C80073F89A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F2B0B070291A48C80073F89A /* PBXTargetDependency */,
 			);
 			name = KSMyShop;
 			productName = KSMyShop;
@@ -253,6 +331,23 @@
 			productReference = F20D43AF2913CADD00124A00 /* KSMyShopUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F2B0B05F291A48C70073F89A /* KSMyShopWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B0B075291A48C80073F89A /* Build configuration list for PBXNativeTarget "KSMyShopWidgetExtension" */;
+			buildPhases = (
+				F2B0B05C291A48C70073F89A /* Sources */,
+				F2B0B05D291A48C70073F89A /* Frameworks */,
+				F2B0B05E291A48C70073F89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSMyShopWidgetExtension;
+			productName = KSMyShopWidgetExtension;
+			productReference = F2B0B060291A48C70073F89A /* KSMyShopWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -274,6 +369,9 @@
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = F20D43942913CADA00124A00;
 					};
+					F2B0B05F291A48C70073F89A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 				};
 			};
 			buildConfigurationList = F20D43902913CADA00124A00 /* Build configuration list for PBXProject "KSMyShop" */;
@@ -292,6 +390,7 @@
 				F20D43942913CADA00124A00 /* KSMyShop */,
 				F20D43A42913CADC00124A00 /* KSMyShopTests */,
 				F20D43AE2913CADD00124A00 /* KSMyShopUITests */,
+				F2B0B05F291A48C70073F89A /* KSMyShopWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -320,6 +419,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2B0B05E291A48C70073F89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B0B084291A4BEA0073F89A /* Assets.xcassets in Resources */,
+				F2B0B06B291A48C80073F89A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -334,11 +442,12 @@
 				F20D43992913CADA00124A00 /* KSMyShopApp.swift in Sources */,
 				F2014652291935F200D51138 /* Stars.swift in Sources */,
 				F20D43C92913F26000124A00 /* View.swift in Sources */,
+				F2B0B06E291A48C80073F89A /* KSMyShopWidget.intentdefinition in Sources */,
 				F20D43C32913CB0500124A00 /* HomeScreenView.swift in Sources */,
+				F2B0B086291A74690073F89A /* Image.swift in Sources */,
 				F201465A2919365A00D51138 /* User.swift in Sources */,
 				F20D43C52913CB2700124A00 /* Model.swift in Sources */,
 				F2B0B05B291A31570073F89A /* Text.swift in Sources */,
-				F20D43C72913DAA000124A00 /* Image.swift in Sources */,
 				F2B0B059291A2F190073F89A /* CommonViews.swift in Sources */,
 				F20146582919363B00D51138 /* Card.swift in Sources */,
 			);
@@ -361,6 +470,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2B0B05C291A48C70073F89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B0B07F291A4BD40073F89A /* User.swift in Sources */,
+				F2B0B088291A76630073F89A /* CommonViews.swift in Sources */,
+				F2B0B087291A74A20073F89A /* Image.swift in Sources */,
+				F2B0B06D291A48C80073F89A /* KSMyShopWidget.intentdefinition in Sources */,
+				F2B0B081291A4BD40073F89A /* NameCards.swift in Sources */,
+				F2B0B082291A4BD40073F89A /* Colors.swift in Sources */,
+				F2B0B080291A4BD40073F89A /* Card.swift in Sources */,
+				F2B0B07E291A4BD40073F89A /* Stars.swift in Sources */,
+				F2B0B068291A48C70073F89A /* KSMyShopWidget.swift in Sources */,
+				F2B0B083291A4BD40073F89A /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -373,6 +499,11 @@
 			isa = PBXTargetDependency;
 			target = F20D43942913CADA00124A00 /* KSMyShop */;
 			targetProxy = F20D43B02913CADD00124A00 /* PBXContainerItemProxy */;
+		};
+		F2B0B070291A48C80073F89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B0B05F291A48C70073F89A /* KSMyShopWidgetExtension */;
+			targetProxy = F2B0B06F291A48C80073F89A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -494,6 +625,7 @@
 		F20D43BA2913CADD00124A00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = KSMyShop/KSMyShop.entitlements;
@@ -503,6 +635,7 @@
 				DEVELOPMENT_TEAM = 2465ZH8J2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Toys Shop";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -527,6 +660,7 @@
 		F20D43BB2913CADD00124A00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = KSMyShop/KSMyShop.entitlements;
@@ -536,6 +670,7 @@
 				DEVELOPMENT_TEAM = 2465ZH8J2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Toys Shop";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -633,6 +768,60 @@
 			};
 			name = Release;
 		};
+		F2B0B073291A48C80073F89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KSMyShopWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KSMyShopWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShop.KSMyShopWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2B0B074291A48C80073F89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KSMyShopWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KSMyShopWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShop.KSMyShopWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -668,6 +857,15 @@
 			buildConfigurations = (
 				F20D43C02913CADD00124A00 /* Debug */,
 				F20D43C12913CADD00124A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B0B075291A48C80073F89A /* Build configuration list for PBXNativeTarget "KSMyShopWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B0B073291A48C80073F89A /* Debug */,
+				F2B0B074291A48C80073F89A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

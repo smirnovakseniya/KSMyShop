@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "Me_1.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -10,6 +9,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "Widget_Image.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2014652291935F200D51138 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2014651291935F200D51138 /* Stars.swift */; };
+		F20146542919360A00D51138 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146532919360A00D51138 /* Colors.swift */; };
+		F20146562919362000D51138 /* NameCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146552919362000D51138 /* NameCards.swift */; };
+		F20146582919363B00D51138 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146572919363B00D51138 /* Card.swift */; };
+		F201465A2919365A00D51138 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20146592919365A00D51138 /* User.swift */; };
+		F20D43992913CADA00124A00 /* KSMyShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43982913CADA00124A00 /* KSMyShopApp.swift */; };
+		F20D439B2913CADA00124A00 /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D439A2913CADA00124A00 /* PopUp.swift */; };
+		F20D439D2913CADC00124A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20D439C2913CADC00124A00 /* Assets.xcassets */; };
+		F20D43A02913CADC00124A00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20D439F2913CADC00124A00 /* Preview Assets.xcassets */; };
+		F20D43AA2913CADD00124A00 /* KSMyShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43A92913CADD00124A00 /* KSMyShopTests.swift */; };
+		F20D43B42913CADD00124A00 /* KSMyShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43B32913CADD00124A00 /* KSMyShopUITests.swift */; };
+		F20D43B62913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43B52913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift */; };
+		F20D43C32913CB0500124A00 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C22913CB0500124A00 /* HomeScreenView.swift */; };
+		F20D43C52913CB2700124A00 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C42913CB2700124A00 /* Model.swift */; };
+		F20D43C72913DAA000124A00 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C62913DAA000124A00 /* Image.swift */; };
+		F20D43C92913F26000124A00 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C82913F26000124A00 /* View.swift */; };
+		F2B0B059291A2F190073F89A /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B058291A2F190073F89A /* CommonViews.swift */; };
+		F2B0B05B291A31570073F89A /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B05A291A31570073F89A /* Text.swift */; };
+		F2C1CB582914FD98002CFBD5 /* CardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1CB572914FD98002CFBD5 /* CardScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F20D43A62913CADC00124A00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20D438D2913CADA00124A00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20D43942913CADA00124A00;
+			remoteInfo = KSMyShop;
+		};
+		F20D43B02913CADD00124A00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20D438D2913CADA00124A00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20D43942913CADA00124A00;
+			remoteInfo = KSMyShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F20146472918EC4000D51138 /* KSMyShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KSMyShop.entitlements; sourceTree = "<group>"; };
+		F2014651291935F200D51138 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		F20146532919360A00D51138 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F20146552919362000D51138 /* NameCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCards.swift; sourceTree = "<group>"; };
+		F20146572919363B00D51138 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F20146592919365A00D51138 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F20D43952913CADA00124A00 /* KSMyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSMyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20D43982913CADA00124A00 /* KSMyShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMyShopApp.swift; sourceTree = "<group>"; };
+		F20D439A2913CADA00124A00 /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		F20D439C2913CADC00124A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20D439F2913CADC00124A00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F20D43A52913CADC00124A00 /* KSMyShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSMyShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20D43A92913CADD00124A00 /* KSMyShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMyShopTests.swift; sourceTree = "<group>"; };
+		F20D43AF2913CADD00124A00 /* KSMyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSMyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20D43B32913CADD00124A00 /* KSMyShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMyShopUITests.swift; sourceTree = "<group>"; };
+		F20D43B52913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMyShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F20D43C22913CB0500124A00 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		F20D43C42913CB2700124A00 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F20D43C62913DAA000124A00 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		F20D43C82913F26000124A00 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F2B0B058291A2F190073F89A /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
+		F2B0B05A291A31570073F89A /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		F2C1CB572914FD98002CFBD5 /* CardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20D43922913CADA00124A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D43A22913CADC00124A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D43AC2913CADD00124A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F201464E2919355F00D51138 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F20D439A2913CADA00124A00 /* PopUp.swift */,
+				F2B0B058291A2F190073F89A /* CommonViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F201464F2919357300D51138 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F20D43C42913CB2700124A00 /* Model.swift */,
+				F20146592919365A00D51138 /* User.swift */,
+				F20146572919363B00D51138 /* Card.swift */,
+				F20146552919362000D51138 /* NameCards.swift */,
+				F20146532919360A00D51138 /* Colors.swift */,
+				F2014651291935F200D51138 /* Stars.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2014650291935B600D51138 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				F20D43C22913CB0500124A00 /* HomeScreenView.swift */,
+				F2C1CB572914FD98002CFBD5 /* CardScreenView.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		F20D438C2913CADA00124A00 = {
+			isa = PBXGroup;
+			children = (
+				F20D43972913CADA00124A00 /* KSMyShop */,
+				F20D43A82913CADD00124A00 /* KSMyShopTests */,
+				F20D43B22913CADD00124A00 /* KSMyShopUITests */,
+				F20D43962913CADA00124A00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20D43962913CADA00124A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20D43952913CADA00124A00 /* KSMyShop.app */,
+				F20D43A52913CADC00124A00 /* KSMyShopTests.xctest */,
+				F20D43AF2913CADD00124A00 /* KSMyShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20D43972913CADA00124A00 /* KSMyShop */ = {
+			isa = PBXGroup;
+			children = (
+				F20D43982913CADA00124A00 /* KSMyShopApp.swift */,
+				F201464F2919357300D51138 /* Models */,
+				F201464E2919355F00D51138 /* Views */,
+				F2014650291935B600D51138 /* ContentViews */,
+				F20D43CA2913F26800124A00 /* Extensions */,
+				F20D439C2913CADC00124A00 /* Assets.xcassets */,
+				F20146472918EC4000D51138 /* KSMyShop.entitlements */,
+				F20D439E2913CADC00124A00 /* Preview Content */,
+			);
+			path = KSMyShop;
+			sourceTree = "<group>";
+		};
+		F20D439E2913CADC00124A00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F20D439F2913CADC00124A00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F20D43A82913CADD00124A00 /* KSMyShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				F20D43A92913CADD00124A00 /* KSMyShopTests.swift */,
+			);
+			path = KSMyShopTests;
+			sourceTree = "<group>";
+		};
+		F20D43B22913CADD00124A00 /* KSMyShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F20D43B32913CADD00124A00 /* KSMyShopUITests.swift */,
+				F20D43B52913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift */,
+			);
+			path = KSMyShopUITests;
+			sourceTree = "<group>";
+		};
+		F20D43CA2913F26800124A00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F20D43C82913F26000124A00 /* View.swift */,
+				F2B0B05A291A31570073F89A /* Text.swift */,
+				F20D43C62913DAA000124A00 /* Image.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20D43942913CADA00124A00 /* KSMyShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20D43B92913CADD00124A00 /* Build configuration list for PBXNativeTarget "KSMyShop" */;
+			buildPhases = (
+				F20D43912913CADA00124A00 /* Sources */,
+				F20D43922913CADA00124A00 /* Frameworks */,
+				F20D43932913CADA00124A00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSMyShop;
+			productName = KSMyShop;
+			productReference = F20D43952913CADA00124A00 /* KSMyShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F20D43A42913CADC00124A00 /* KSMyShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20D43BC2913CADD00124A00 /* Build configuration list for PBXNativeTarget "KSMyShopTests" */;
+			buildPhases = (
+				F20D43A12913CADC00124A00 /* Sources */,
+				F20D43A22913CADC00124A00 /* Frameworks */,
+				F20D43A32913CADC00124A00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20D43A72913CADC00124A00 /* PBXTargetDependency */,
+			);
+			name = KSMyShopTests;
+			productName = KSMyShopTests;
+			productReference = F20D43A52913CADC00124A00 /* KSMyShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F20D43AE2913CADD00124A00 /* KSMyShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20D43BF2913CADD00124A00 /* Build configuration list for PBXNativeTarget "KSMyShopUITests" */;
+			buildPhases = (
+				F20D43AB2913CADD00124A00 /* Sources */,
+				F20D43AC2913CADD00124A00 /* Frameworks */,
+				F20D43AD2913CADD00124A00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20D43B12913CADD00124A00 /* PBXTargetDependency */,
+			);
+			name = KSMyShopUITests;
+			productName = KSMyShopUITests;
+			productReference = F20D43AF2913CADD00124A00 /* KSMyShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20D438D2913CADA00124A00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F20D43942913CADA00124A00 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F20D43A42913CADC00124A00 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F20D43942913CADA00124A00;
+					};
+					F20D43AE2913CADD00124A00 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F20D43942913CADA00124A00;
+					};
+				};
+			};
+			buildConfigurationList = F20D43902913CADA00124A00 /* Build configuration list for PBXProject "KSMyShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20D438C2913CADA00124A00;
+			productRefGroup = F20D43962913CADA00124A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20D43942913CADA00124A00 /* KSMyShop */,
+				F20D43A42913CADC00124A00 /* KSMyShopTests */,
+				F20D43AE2913CADD00124A00 /* KSMyShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20D43932913CADA00124A00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D43A02913CADC00124A00 /* Preview Assets.xcassets in Resources */,
+				F20D439D2913CADC00124A00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D43A32913CADC00124A00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D43AD2913CADD00124A00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20D43912913CADA00124A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20146562919362000D51138 /* NameCards.swift in Sources */,
+				F2C1CB582914FD98002CFBD5 /* CardScreenView.swift in Sources */,
+				F20146542919360A00D51138 /* Colors.swift in Sources */,
+				F20D439B2913CADA00124A00 /* PopUp.swift in Sources */,
+				F20D43992913CADA00124A00 /* KSMyShopApp.swift in Sources */,
+				F2014652291935F200D51138 /* Stars.swift in Sources */,
+				F20D43C92913F26000124A00 /* View.swift in Sources */,
+				F20D43C32913CB0500124A00 /* HomeScreenView.swift in Sources */,
+				F201465A2919365A00D51138 /* User.swift in Sources */,
+				F20D43C52913CB2700124A00 /* Model.swift in Sources */,
+				F2B0B05B291A31570073F89A /* Text.swift in Sources */,
+				F20D43C72913DAA000124A00 /* Image.swift in Sources */,
+				F2B0B059291A2F190073F89A /* CommonViews.swift in Sources */,
+				F20146582919363B00D51138 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D43A12913CADC00124A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D43AA2913CADD00124A00 /* KSMyShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D43AB2913CADD00124A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D43B62913CADD00124A00 /* KSMyShopUITestsLaunchTests.swift in Sources */,
+				F20D43B42913CADD00124A00 /* KSMyShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F20D43A72913CADC00124A00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20D43942913CADA00124A00 /* KSMyShop */;
+			targetProxy = F20D43A62913CADC00124A00 /* PBXContainerItemProxy */;
+		};
+		F20D43B12913CADD00124A00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20D43942913CADA00124A00 /* KSMyShop */;
+			targetProxy = F20D43B02913CADD00124A00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F20D43B72913CADD00124A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F20D43B82913CADD00124A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20D43BA2913CADD00124A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KSMyShop/KSMyShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KSMyShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F20D43BB2913CADD00124A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KSMyShop/KSMyShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KSMyShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F20D43BD2913CADD00124A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSMyShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KSMyShop";
+			};
+			name = Debug;
+		};
+		F20D43BE2913CADD00124A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSMyShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KSMyShop";
+			};
+			name = Release;
+		};
+		F20D43C02913CADD00124A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSMyShop;
+			};
+			name = Debug;
+		};
+		F20D43C12913CADD00124A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2465ZH8J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.kseniyasmirnova.KSMyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSMyShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20D43902913CADA00124A00 /* Build configuration list for PBXProject "KSMyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20D43B72913CADD00124A00 /* Debug */,
+				F20D43B82913CADD00124A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20D43B92913CADD00124A00 /* Build configuration list for PBXNativeTarget "KSMyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20D43BA2913CADD00124A00 /* Debug */,
+				F20D43BB2913CADD00124A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20D43BC2913CADD00124A00 /* Build configuration list for PBXNativeTarget "KSMyShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20D43BD2913CADD00124A00 /* Debug */,
+				F20D43BE2913CADD00124A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20D43BF2913CADD00124A00 /* Build configuration list for PBXNativeTarget "KSMyShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20D43C02913CADD00124A00 /* Debug */,
+				F20D43C12913CADD00124A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20D438D2913CADA00124A00 /* Project object */;
+}

@@ -22,6 +22,7 @@
 		F20D43C32913CB0500124A00 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C22913CB0500124A00 /* HomeScreenView.swift */; };
 		F20D43C52913CB2700124A00 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C42913CB2700124A00 /* Model.swift */; };
 		F20D43C92913F26000124A00 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D43C82913F26000124A00 /* View.swift */; };
+		F273F6D4291D2815009B4C39 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F273F6D2291D2812009B4C39 /* WidgetView.swift */; };
 		F2B0B059291A2F190073F89A /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B058291A2F190073F89A /* CommonViews.swift */; };
 		F2B0B05B291A31570073F89A /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0B05A291A31570073F89A /* Text.swift */; };
 		F2B0B063291A48C70073F89A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0B062291A48C70073F89A /* WidgetKit.framework */; };
@@ -102,6 +103,7 @@
 		F20D43C22913CB0500124A00 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		F20D43C42913CB2700124A00 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F20D43C82913F26000124A00 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F273F6D2291D2812009B4C39 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
 		F2B0B058291A2F190073F89A /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
 		F2B0B05A291A31570073F89A /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		F2B0B060291A48C70073F89A /* KSMyShopWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KSMyShopWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -266,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				F2B0B067291A48C70073F89A /* KSMyShopWidget.swift */,
+				F273F6D2291D2812009B4C39 /* WidgetView.swift */,
 				F2B0B069291A48C70073F89A /* KSMyShopWidget.intentdefinition */,
 				F2B0B06A291A48C80073F89A /* Assets.xcassets */,
 				F2B0B06C291A48C80073F89A /* Info.plist */,
@@ -474,6 +477,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F273F6D4291D2815009B4C39 /* WidgetView.swift in Sources */,
 				F2B0B07F291A4BD40073F89A /* User.swift in Sources */,
 				F2B0B088291A76630073F89A /* CommonViews.swift in Sources */,
 				F2B0B087291A74A20073F89A /* Image.swift in Sources */,

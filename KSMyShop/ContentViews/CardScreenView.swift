@@ -22,15 +22,17 @@ struct CardScreenView: View {
                     TabView {
                         ForEach(0..<card.image.count, id: \.self) { i in
                             Image(card.image[i]).customImage()
-                                .padding(.bottom, 35)
+                                .edgesIgnoringSafeArea(.top)
                         }
                     }
                     .tabViewStyle(PageTabViewStyle())
-                    .frame(height: UIScreen.main.bounds.width + 40)
+                    
                     CircleButtonView(action: {
                         presentationMode.wrappedValue.dismiss()
                     }, image: Image(systemName: "chevron.backward"))
                 }
+                .edgesIgnoringSafeArea(.top)
+                
                 VStack(alignment: .leading) {
                     Text(card.name)
                         .padding(.horizontal)
@@ -81,9 +83,10 @@ struct CardScreenView: View {
                         .frame(height: 40)
                         .foregroundColor(Color("TitleColor"))
                 }
+                
             }
             .background(Color(card.color))
-            .edgesIgnoringSafeArea(.top)
+            
         }
         .navigationBarBackButtonHidden(true)
     }

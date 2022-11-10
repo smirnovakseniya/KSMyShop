@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct HomeScreenView: View {
     
@@ -18,6 +19,13 @@ struct HomeScreenView: View {
     @ObservedObject var user = User()
     
     @EnvironmentObject var model: Model
+    
+    func orderAction() {
+        //actions for the widget
+        WidgetCenter.shared.reloadTimelines(ofKind: "KSMyShopWidget")
+        //actions for the app
+//        stage = (stage + 1) % 8
+    }
     
     var body: some View {
         NavigationView {

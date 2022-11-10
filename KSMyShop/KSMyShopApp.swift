@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 @main
 struct KSMyShopApp: App {
@@ -13,6 +14,10 @@ struct KSMyShopApp: App {
         WindowGroup {
             HomeScreenView()
                 .environmentObject(Model())
+                .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+                    WidgetCenter.shared.reloadTimelines(ofKind: "KSMyShopWidget")
+                    }
         }
+        
     }
 }

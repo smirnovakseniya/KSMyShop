@@ -19,7 +19,7 @@ class Model: ObservableObject {
     ]
     
     @Published var leoCards: [Card] = [
-        Card(card: NameCards.leo.rawValue, image: ["Leo_1", "Leo_2", "Leo_3", "Leo_8"], name: "Sunny Leo", raiting: 4, color: Colors.yellow.rawValue,
+        Card(card: NameCards.leo.rawValue, image: ["Leo_1", "Leo_2", "Leo_3"], name: "Sunny Leo", raiting: 4, color: Colors.yellow.rawValue,
              description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", buy: true),
         Card(card: NameCards.leo.rawValue, image: ["Leo_4", "Leo_5"], name: "Green Leo", raiting: 3, color: Colors.lightGreen.rawValue,
              description: "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?", buy: false),

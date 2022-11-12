@@ -23,6 +23,8 @@ public struct Popup<PopupContent>: ViewModifier where PopupContent: View {
     @State private var presenterContentRect: CGRect = .zero
     @State private var sheetContentRect: CGRect = .zero
     
+    @FocusState private var nameIsFocused: Bool
+    
     private var displayedOffset: CGFloat {
         -presenterContentRect.midY + screenHeight/2
     }
@@ -71,8 +73,10 @@ public struct Popup<PopupContent>: ViewModifier where PopupContent: View {
                             .frame(width: 250, height: 50)
                             .background(Color.white)
                             .clipShape(Capsule())
+                            .focused($nameIsFocused)
                             
                         Button(action: {
+                            nameIsFocused = false
                             UserDefaults.standard.setValue(userName, forKey: "userName")
                             dismiss()
                         }) {
